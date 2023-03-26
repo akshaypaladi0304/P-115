@@ -1,0 +1,21 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: magenta;
+}
+
+canvas{
+    border: 10px ridge yellow;
+    animation-name: light;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes light{
+    from {box-shadow: 5px 5px 200px pink;}
+    to {box-shadow: 5px 5px 200px purple;}
+    from{box-shadow: 5px 5px 200px red;}
+    to{box-shadow: 5px 5px 200px blue;}
+}
